@@ -11,18 +11,7 @@ let total = 99;//TB
 let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
-let MainData = `
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:2095?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:2082?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:2052?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:2086?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:8880?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:2052?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:8080?encryption=none&security=none&type=ws&host=1011.kaifeng.us.kg&path=%2F#serv00
-vless://77be33ae-923d-4ba9-93cf-7652929e62c6@1011.kaifeng.us.kg:443?encryption=none&security=tls&sni=1011.kaifeng.us.kg&type=ws&host=1011.kaifeng.us.kg#serv00
-https://bpb-dashbord.pages.dev/sub/8995be95-368b-4333-bd44-2064c3494a12#BPB-Normal
-https://yang251147.us.kg/sub/8995be95-368b-4333-bd44-2064c3494a12#BPB-Normal
-https://bpb-worker-panel-ek9.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal
+let MainData = `https://bpb-dashbord.pages.dev/sub/8995be95-368b-4333-bd44-2064c3494a12#BPB-Normal
 `
 
 let urls = [];

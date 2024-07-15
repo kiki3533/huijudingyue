@@ -12,6 +12,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `https://bpb-dashbord.pages.dev/sub/8995be95-368b-4333-bd44-2064c3494a12#BPB-Normal
+https://yang251147.us.kg/sub/8995be95-368b-4333-bd44-2064c3494a12#BPB-Normal
 `
 
 let urls = [];
